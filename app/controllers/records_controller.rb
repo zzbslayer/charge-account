@@ -19,9 +19,6 @@ class RecordsController < ApplicationController
     head :no_content
   end
 
-  def edit
-  end
-
   private
 
     def record_params
